@@ -19,7 +19,7 @@ const showwinner= (userwin,userChoice,compChoice)=>{
         uscore.innerText=userscore;
     }else{
         console.log("YOU lose");
-        msg.innerText =`YOU Won! ${compChoice} beats ${userChoice}.`;
+        msg.innerText =`YOU LOSE! ${compChoice} beats ${userChoice}.`;
         msg.style.backgroundColor="red";
         compscore++;
         cscore.innerText=compscore;
